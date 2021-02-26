@@ -9,5 +9,5 @@ def convert_f_to_c(temperature_f):
 
 def convert_c_to_f(temperature_c):
     """Convert Celsius to Fahrenheit"""
-    temperature_f = (temperature_c × 9/5) + 32)
+    temperature_f = (temperature_c * 9/5) + 32)
     return temperature_f
