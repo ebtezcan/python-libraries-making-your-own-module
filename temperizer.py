@@ -35,3 +35,10 @@ def convert_k_to_f(temperature_k):
     """Convert Kelvin to Fahrenheit"""
     temperature_f = (temperature_k - 273.15) * 9/5 + 32
     return temperature_f
+
+
+def convert_f_to_all(temperature_f):
+    """Convert F to Both Kelvin and Celsius"""
+    print('The temperature', temperature_f, 'F is:')
+    print(f'{convert_f_to_c(temperature_f)} in C')
+    print(f'{convert_f_to_k(temperature_f)} in K')
